@@ -30,6 +30,6 @@ The user input for base housing price was a singular function designed to allow 
 
 The renovation calculator was built off the aforementioned function and designed to take both a home's specific data and renovation type to return the base price and a price reflecting the value increase from renovations. The renovation data used by the function was written directly into the notebook as a dataframe and is not an additional data file.
 
-The rent calculator was designed to predict the rent of a singular home using both the SVR and RFR models. User input for the features from the primary data is used, and then a rent price is returned using the "2006 Fair Rent Price in Cali.csv" file. The function first determines the mean rent based on the number of bedrooms in the home, in accordance with the fair rent data, then applies a function to create the predictions.
+The rent calculator was designed to predict the rent of a singular home using both the SVR and RFR models. User input for the features from the primary data is used, and then a rent price is returned using the "2006 Fair Market Rent In Cali.csv" file. The function first determines the mean rent based on the number of bedrooms in the home, in accordance with the fair rent data, then applies a function to create the predictions.
 
 Contributors: Kiera Wingo, Fidel Gonzalez, Prashant Vajpayee, and Komala Cherukuri
